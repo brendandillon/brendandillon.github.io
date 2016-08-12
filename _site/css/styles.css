@@ -1,11 +1,32 @@
 html {
   box-sizing: border-box;
+  color: #252120;
+  font-family: 'Open Sans', sans-serif;
 }
 
 *,
 *:before,
 *:after {
   box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #a92f41;
+}
+
+header {
+  background: #252120;
+  border-radius: 5px;
 }
 
 .nav-bar {
@@ -17,9 +38,18 @@ html {
 .nav-bar li {
   display: inline-block;
   margin-right: 1em;
+  color: #b48375;
 }
 
 .main-logo {
   display: inline-block;
   width: 65%;
+  margin-left: 2em;
+  color: #91c7a9;
+  font-variant: small-caps;
+}
+
+.blog-post {
+  width: 66em;
+  margin: 0 auto;
 }
