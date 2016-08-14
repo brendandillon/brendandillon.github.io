@@ -50,6 +50,11 @@ header {
 }
 
 .blog-post {
-  width: 66em;
+  width: 36em;
   margin: 0 auto;
+}
+
+.index-entry {
+  margin: 5px 50px;
+  border-bottom: solid 1px #252120;
 }
